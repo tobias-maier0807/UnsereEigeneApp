@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UnsereEigeneApp</string>
+    <string name="title_Bitte_Anmelden">Bitte melden Sie sich an</string>
+    <string name="Folie1_Benutzername">Benutzername:</string>
+    <string name="Folie1_Passwort">Passwort:</string>
+    <string name="Folie1_TicTacToe_Text">Willkommen zu unserem Spiel Tic Tac Toe</string>
+    <string name="Folie1_ersteller">Erstellt von Maier Tobias und Goldbrunner Paul</string>
 </resources>
