@@ -5,4 +5,29 @@
     <string name="Folie1_Passwort">Passwort:</string>
     <string name="Folie1_TicTacToe_Text">Willkommen zu unserem Spiel Tic Tac Toe</string>
     <string name="Folie1_ersteller">Erstellt von Maier Tobias und Goldbrunner Paul</string>
+    <string name="Button_Folie_3_Erklärung">Spielerklärung</string>
+    <string name="Folie3_Spielen"> Spielen </string>
+    <string name="Folie3_Mehrspieler"> Mehrspieler </string>
+    <string name="Folie3_TicTacToe">Tic Tac Toe</string>
+    <string name="Folie3_Pfeil_Description">Zurück</string>
+    <string name="Folie3_Einstellungen_Description">Einstellungen</string>
+    <string name="Folie1_Bild">Bild TicTacToe</string>
+    <string name="Folie3_Spielerklärung_Überschrift">Tic Tac Toe Erklärung</string>
+    <string name="Folie3_Erklärung_text1">Das Ziel des Spiels ist es 3 Symbole zu verbinden.</string>
+    <string name="Folie3_Erklärung_Text_unten">Sie können die Symbole in eine beliebige Richtung verbinden. Eine Zeile, eine Spalte oder Diagonal.</string>
+    <string name="Folie3_Erklärung_Button_Zurück">Zurück</string>
+    <string name="Folie3_Erklärung_Bild_Description">Erklärung</string>
+    <string name="Folie1_Spielen">Spielen</string>
+    <string name="Spielerklärung_Unentschieden">Bei einem Unentschieden hat niemand gewonnen. Sie können durch den Button \"Neustarten\" ein neues Spiel starten.</string>
+    <string name="Folie2_Spielen">Spielen</string>
+    <string name="Folie2_Spiel_verlassen">Zurück</string>
+    <string name="Folie2_Spiel_Verlassen">Sind Sie sicher, dass Sie das Spiel verlassen wollen?</string>
+    <string name="Folie2_Spiel_verlassen_Ja">Ja</string>
+    <string name="Folie2_Spiel_verlassen_Nein">Nein</string>
+    <string name="Folie3_zurück">Zurück</string>
+    <string name="Folie3_Einstellungen">Einstellungen</string>
+    <string name="Folie3_Einstellungen1">Einstellung</string>
+    <string name="Folie1_Spiel_verlassen">Spiel verlassen</string>
+    <string name="Spielen_button_zurück">Zurück</string>
+
 </resources>

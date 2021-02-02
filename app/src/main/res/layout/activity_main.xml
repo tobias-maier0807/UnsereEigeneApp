@@ -24,10 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="204dp"
-        android:layout_marginRight="210dp"
         android:text="@string/Folie1_Passwort"
         android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.677"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,20 +35,20 @@
         android:id="@+id/textView2_Folie1._Benutzername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="175dp"
-        android:layout_marginRight="225dp"
+        android:layout_marginTop="176dp"
         android:text="@string/Folie1_Benutzername"
         android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="260dp"
-        app:layout_constraintHorizontal_bias="0.477"
+        android:id="@+id/imageView1_Folie1_TIcTacToe"
+        android:layout_width="243dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="452dp"
+        android:contentDescription="@string/Folie1_Bild"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -71,10 +70,30 @@
         android:id="@+id/textView6_Folie1_Tobi_und_Paul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="616dp"
         android:text="@string/Folie1_ersteller"
         android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_Folie1_Spielen"
+        android:layout_width="157dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="276dp"
+        android:text="@string/Folie1_Spielen"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2_Folie1_Spiel_verlassen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
+        android:text="@string/Folie1_Spiel_verlassen"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
