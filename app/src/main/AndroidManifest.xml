@@ -10,9 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ZweiteActivity_SpielVerlassen"></activity>
-        <activity android:name=".DritteActivity"></activity>
-        <activity android:name=".SpielerklärungActivity"></activity>
+        <activity android:name=".ZweiteActivity"></activity>
+        <activity android:name=".SpielerklaerungActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

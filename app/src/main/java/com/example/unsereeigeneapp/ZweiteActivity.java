@@ -7,14 +7,14 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DritteActivity extends AppCompatActivity {
+public class ZweiteActivity extends AppCompatActivity {
     Button buttonSpielerklärung;
     Button zurueckFolie2;
     Button Spiel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_folie3);
+        setContentView(R.layout.activity_zweite);
 
 
         buttonSpielerklärung = (Button) findViewById(R.id.button_Folie3_Erklärung);
@@ -29,7 +29,7 @@ public class DritteActivity extends AppCompatActivity {
         zurueckFolie2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openFolie1SVActivity();
+                openMainActivity();
             }
         });
 
@@ -48,19 +48,22 @@ public class DritteActivity extends AppCompatActivity {
 
 
     public void openFolie3erklärungActivity() {
-        Intent intent = new Intent(this, SpielerklärungActivity.class);
+        Intent intent = new Intent(this, SpielerklaerungActivity.class);
         startActivity(intent);
+        finish();
     }
 
 
-    public void openFolie1SVActivity(){
+    public void openMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void openSpielActivity() {
         Intent intent = new Intent(this, SpielActivity.class);
         startActivity(intent);
+        finish();
     }
 }

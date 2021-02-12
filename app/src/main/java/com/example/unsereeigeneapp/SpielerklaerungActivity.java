@@ -7,14 +7,14 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SpielerklärungActivity extends AppCompatActivity {
+public class SpielerklaerungActivity extends AppCompatActivity {
     Button buttonZurückzuFolie3;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.folie3_spielerklaerung);
+        setContentView(R.layout.activity_spielerklaerung);
 
 
 
@@ -27,7 +27,8 @@ public class SpielerklärungActivity extends AppCompatActivity {
         });
     }
     public void openSpielerklärungzurückActivity(){
-        Intent intent = new Intent(this, DritteActivity.class);
+        Intent intent = new Intent(this, ZweiteActivity.class);
         startActivity(intent);
+        finish();
     }
 }

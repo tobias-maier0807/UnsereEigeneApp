@@ -7,42 +7,6 @@
     android:background="@android:color/background_dark"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView_1_Folie_Bitte_Anmelden"
-        android:layout_width="161dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="100dp"
-        android:text="@string/title_Bitte_Anmelden"
-        android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.479"
-        app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3_Fole1._Passwort"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="204dp"
-        android:text="@string/Folie1_Passwort"
-        android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.677"
-        app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2_Folie1._Benutzername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
-        android:text="@string/Folie1_Benutzername"
-        android:textColor="@android:color/white"
-        app:layout_constraintHorizontal_bias="0.697"
-        app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView1_Folie1_TIcTacToe"
         android:layout_width="243dp"
@@ -81,9 +45,8 @@
         android:id="@+id/button_Folie1_Spielen"
         android:layout_width="157dp"
         android:layout_height="70dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginTop="172dp"
         android:text="@string/Folie1_Spielen"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -92,7 +55,7 @@
         android:id="@+id/button2_Folie1_Spiel_verlassen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="368dp"
+        android:layout_marginTop="296dp"
         android:text="@string/Folie1_Spiel_verlassen"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"

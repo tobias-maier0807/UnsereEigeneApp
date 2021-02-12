@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UnsereEigeneApp</string>
+    <string name="app_name">Tic Tac Toe</string>
     <string name="title_Bitte_Anmelden">Bitte melden Sie sich an</string>
     <string name="Folie1_Benutzername">Benutzername:</string>
     <string name="Folie1_Passwort">Passwort:</string>

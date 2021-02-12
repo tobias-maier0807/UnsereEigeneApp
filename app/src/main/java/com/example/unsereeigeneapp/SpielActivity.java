@@ -193,8 +193,9 @@ public class SpielActivity extends AppCompatActivity implements View.OnClickList
 
 
     public void zurückzuActivity3(){
-        Intent intent = new Intent(this, DritteActivity.class);
+        Intent intent = new Intent(this, ZweiteActivity.class);
         startActivity(intent);
+        finish();
 
 
 

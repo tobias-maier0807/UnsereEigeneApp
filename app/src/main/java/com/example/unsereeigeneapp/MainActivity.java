@@ -3,12 +3,10 @@ package com.example.unsereeigeneapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button button;
@@ -34,13 +32,11 @@ public class MainActivity extends AppCompatActivity {
                 openVerlassenActivity();
             }
         });
-
-
-
     }
     public void openDritteActivity(){
-        Intent intent = new Intent(this, DritteActivity.class);
+        Intent intent = new Intent(this, ZweiteActivity.class);
         startActivity(intent);
+        finish();
     }
 
     public void openVerlassenActivity(){
